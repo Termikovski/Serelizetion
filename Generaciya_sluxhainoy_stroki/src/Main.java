@@ -4,7 +4,7 @@ public class Main {
 	public static void main(String[] args) {
 		String symbols = "qwerty";
         StringBuilder randString = new StringBuilder();
-        int count = 30+(int)(Math.random()*2);
+        int count = 30+(int)(Math.random()*6);
         for(int i=0;i<count;i++)
           randString.append(symbols.charAt((int)(Math.random()*symbols.length())));
         
